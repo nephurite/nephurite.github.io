@@ -1,82 +1,82 @@
 /**
  * @name ginto
  * @description  replaces discord's gg-sans library with ginto. 
- * @author schume (emuhcs)
+ * @author nephurite
  * @authorId 389635653073240064
- * @version 1.0.2
- * @source https://github.com/emuhcs/ginto
+ * @version 1.0.3
+ * @source https://github.com/nephurite/ginto
  */
 
 /* Updated font-face rules to use new font file names and jsdelivr links */
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Thin.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Thin Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Thin Italic.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Light.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Light Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Light Italic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Regular.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Regular Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Regular Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Medium.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Medium Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Medium Italic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Bold.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Bold Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Bold Italic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Black.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: 'Ginto';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto/Ginto Black Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto/Ginto Black Italic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
@@ -84,97 +84,97 @@
 /* nord */
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Hairline.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Hairline.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Hairline Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Hairline Italic.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Thin.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Thin.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Thin Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Thin Italic.ttf') format('truetype');
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Light.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Light Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Light Italic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Regular.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Regular Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Regular Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Medium.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Medium Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Medium Italic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Bold.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Bold Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Bold Italic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Black.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Black Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Black Italic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Ultra.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Ultra.ttf') format('truetype');
   font-weight: 950;
   font-style: normal;
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('https://cdn.jsdelivr.net/gh/emuhcs/ginto/src/font/ginto-nord/Ginto Nord Ultra Italic.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/nephurite/ginto/src/font/ginto-nord/Ginto Nord Ultra Italic.ttf') format('truetype');
   font-weight: 950;
   font-style: italic;
 }
