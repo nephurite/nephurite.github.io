@@ -1,0 +1,25 @@
+{
+    "spec": 1,
+    "name": "ginto",
+    "previewText": "replaces discord's gg-sans library with ginto.",
+    "main": {
+        "ABCGintoNord-ExtraBold": "https://github.com/nephurite/ginto/blob/main/src/font/ginto-nord/Ginto%20Nord%20Ultra.ttf?raw=1",
+        "ggsans-Bold": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Bold.ttf?raw=1",
+        "ggsans-BoldItalic": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Bold%20Italic.ttf?raw=1",
+        "ggsans-ExtraBold": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Black.ttf?raw=1",
+        "ggsans-ExtraBoldItalic": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Black%20Italic.ttf?raw=1",
+        "ggsans-Medium": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Medium.ttf?raw=1",
+        "ggsans-MediumItalic": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Medium%20Italic.ttf?raw=1",
+        "ggsans-Normal": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Regular.ttf?raw=1",
+        "ggsans-NormalItalic": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Regular%20Italic.ttf?raw=1",
+        "ggsans-Semibold": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Medium.ttf?raw=1",
+        "ggsans-SemiboldItalic": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Medium%20Italic.ttf?raw=1",
+        "NotoSans-Bold": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Bold.ttf?raw=1",
+        "NotoSans-ExtraBold": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Black.ttf?raw=1",
+        "NotoSans-Medium": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Medium.ttf?raw=1",
+        "NotoSans-Normal": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Regular.ttf?raw=1",
+        "NotoSans-NormalItalic": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Regular%20Italic.ttf?raw=1",
+        "NotoSans-Semibold": "https://github.com/nephurite/ginto/blob/main/src/font/ginto/Ginto%20Medium.ttf?raw=1",
+        "SourceCodePro-Semibold": "https://github.com/nephurite/ginto/blob/main/src/font/ginto-nord/Ginto%20Nord%20Medium.ttf?raw=1"
+    }
+}
